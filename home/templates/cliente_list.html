@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% load bootstrap %}
+
+{% block main %}
+
+    <main class="container">
+        <section class="mt-4">
+            <h3>Cliente</h3>
+            <article class="rounded border shadow pt-4 pr-4 pl-4">
+                <table class="table table-hover table-sm ">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                email
+                            </th>
+                            <th>
+                                numero
+                            </th>
+                            <th>
+                                contato
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    {% for cliente in cliente %}
+                        <tr>
+                            <td>
+                                {{ cliente.nome }}
+                            </td>
+                            <td>
+                                <a href="{% url 'cliente_altera' cliente.id %}">
+                                    {{ cliente.email }}
+                                </a>
+                            </td>
+                            <td>
+                                {{ cliente.numero }}
+                            </td>
+                            <td>
+                                {{ cliente.contato }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+            </article>
+            <div class="mt-4 offset-10">
+                <a class="btn btn-sm btn-success shadow" href="{% url 'cliente_novo' %}">Novo Cliente</a>
+            </div>
+        </section>
+    </main>
+
+
+
+{% endblock %}
+

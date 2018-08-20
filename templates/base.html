@@ -1,0 +1,76 @@
+{% load static %}
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>SMB</title>
+        <link rel="icon" type="image/png" href="{% static 'media/icon.png' %}" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="{% static 'css/auto.css' %}">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+              <div class="container">
+                    <a class="navbar-brand" href="{% url 'home' %}">
+                        <img class="" src="{% static 'media/icon.png' %}" width="50px" alt="logo" >
+                    </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <div class="navbar d-flex justify-content-between">
+                          <ul class="navbar-nav ">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="{% url 'home' %}">Menu<span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Agenda</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Cadastros
+                                </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="{% url 'cliente_list'%}">Clientes</a>
+                                  <a class="dropdown-item" href="">Contatos</a>
+                                  <a class="dropdown-item" href=""></a>
+                                </div>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Pedidos
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="">Pedidos</a>
+                                  <a class="dropdown-item" href="">Orçamentos</a>
+                                  <a class="dropdown-item" href="#">Pagamentos</a>
+                                </div>
+                              </li>
+                          </ul>
+                          <div class="nav-link pl-3 ">
+                              {% if user.is_authenticated %}
+                                Olá querido,
+                                {{ user.username }}
+                                <a href="/logout"><i class="fas fa-sign-out-alt"></i></a>
+                              {% endif %}
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </nav>
+        </header>
+        {% block main %}
+
+        {% endblock %}
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
+</html>
