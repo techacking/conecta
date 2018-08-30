@@ -3,8 +3,7 @@
 <html lang="pt">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>SMB</title>
         <link rel="icon" type="image/png" href="{% static 'media/icon.png' %}" />
@@ -24,7 +23,7 @@
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <div class="navbar d-flex justify-content-between">
+                      <div class="navbar d-flex justify-content-between collapse navbar-collapse">
                           <ul class="navbar-nav ">
                               <li class="nav-item active">
                                 <a class="nav-link" href="{% url 'home' %}">Menu<span class="sr-only">(current)</span></a>
@@ -38,7 +37,7 @@
                                 </a>
                                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                   <a class="dropdown-item" href="{% url 'cliente_list'%}">Clientes</a>
-                                  <a class="dropdown-item" href="">Contatos</a>
+                                  <a class="dropdown-item" href="{% url 'contato_list'%}">Contatos</a>
                                   <a class="dropdown-item" href=""></a>
                                 </div>
                               </li>
@@ -47,19 +46,18 @@
                                   Pedidos
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <a class="dropdown-item" href="">Pedidos</a>
+                                  <a class="dropdown-item" href="{% url 'pedido' %}">Pedidos</a>
                                   <a class="dropdown-item" href="">Orçamentos</a>
                                   <a class="dropdown-item" href="#">Pagamentos</a>
                                 </div>
                               </li>
                           </ul>
-                          <div class="nav-link pl-3 ">
+                          <form class="form-inline">
                               {% if user.is_authenticated %}
-                                Olá querido,
                                 {{ user.username }}
-                                <a href="/logout"><i class="fas fa-sign-out-alt"></i></a>
+                                <a class="my-2 my-lg-0" href="/logout"><i class="fas fa-sign-out-alt"> Sair</i></a>
                               {% endif %}
-                          </div>
+                          </form>
                       </div>
                   </div>
               </div>

@@ -13,5 +13,5 @@ class ContatoForm(ModelForm):
     class Meta:
         model = Contato
         fields = ['nome', 'email', 'site',
-                  'celular', 'telefone1', 'telefone2', 'foto'
+                  'celular', 'telefone1', 'telefone2', 'foto',
                   ]

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load bootstrap %}
+
+{% block main %}
+
+<main class="container">
+        <section class="mt-4">
+            <h3>Pedidos</h3>
+            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-sm">
+                <table class="table table-hover table-sm ">
+                    <thead>
+                        <tr>
+                            <th>
+                                Status
+                            </th>
+                            <th>
+                                Cliente
+                            </th>
+                            <th>
+                                Ações
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for pedido in pedido %}
+                            <tr>
+                                <td>
+                                    {{ pedido.status }}
+                                </td>
+                                <td>
+                                    {{ pedido.cliente }}
+                                </td>
+                                <td>
+                                    <a href="{% url 'pedido_altera' pedido.id %}">
+                                        <i class="far fa-edit"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </article>
+            <div class="mt-4 offset-md-11 ">
+                <a class="btn btn-sm btn-success shadow" href="{% url 'pedido_novo' %}">Novo</a>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}
+

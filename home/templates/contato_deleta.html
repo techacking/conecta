@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load bootstrap %}
+
+{% block main %}
+
+    <h1> Tem certeza que deseja deletar {{ contato.nome }} ?</h1>
+    <form method="POST" ENCTYPE="multipart/form-data">
+        {% csrf_token %}
+        <button type="submit"> Delete </button>
+    </form>
+
+
+{% endblock %}

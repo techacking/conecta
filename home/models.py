@@ -20,6 +20,9 @@ class Sala(models.Model):
     status = models.ForeignKey(Condicao, null=True, blank=True, on_delete=models.CASCADE)
     tipo = models.ForeignKey(TipoSala, null=True, blank=True, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.nome
+
 class Contato(models.Model):
     nome = models.CharField(max_length=35)
     email = models.EmailField(null=True)
@@ -27,7 +30,7 @@ class Contato(models.Model):
     celular = models.IntegerField()
     telefone1 = models.IntegerField(null=True)
     telefone2 = models.IntegerField(null=True)
-    foto = models.ImageField(null=True)
+    foto = models.ImageField(upload_to='clients_photos', null=True, blank=True)
 
     def __str__(self):
         return self.nome
@@ -45,8 +48,12 @@ class Cliente(models.Model):
     telefone = models.IntegerField()
     contato = models.ForeignKey(Contato, null=True, blank=True, on_delete=models.PROTECT)
 
+    def __str__(self):
+        return self.nome
 
+class Servicos(models.Model):
+    tiposervico = models.CharField(max_length=20)
 
-
-
+    def __str__(self):
+        return self.tiposervico
 

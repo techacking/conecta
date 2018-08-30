@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-googlecalendar
+Version: 3.0.0
+Summary: This project implements Google Calendar API as django objects.
+Home-page: http://incuna.com/
+Author: Incuna Ltd
+Author-email: admin@incuna.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,43 @@
+{% extends "googlecalendar/base.html" %}
+
+{% load i18n %}
+{% load googlecalendartags %}
+{% load uni_form_tags %}
+
+{% block extrascript %}
+    {{ block.super }}
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7/themes/smoothness/jquery-ui.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function() {
+
+            $("input#id_start_time_0").datepicker({ });
+            $("input#id_end_time_0").datepicker({ });
+        });
+    </script>
+{% endblock %}
+
+
+{% block content-title %}
+    <h2>{% trans 'Calendars' %}</h2>
+{% endblock %}
+
+{% block content-body %}
+    {% embedcalendar %}
+    {% if event_form %}
+        <form action="" method="post" >
+            {{ event_form|as_uni_form }}
+            <input type="submit" value="{%  trans 'Submit' %}">
+        </form>
+    {% endif %}
+{% endblock %}
+
+{% block content-aside %}
+    <h3>Calendars</h3>
+    <dl >
+    {% for calendar in object_list %}  
+        <dt><a href="{{calendar.get_absolute_url }}">{{ calendar }}</a></dt>
+        <dd>{{ calendar.summary }}</dd>
+    {% endfor %}
+    </dl>
+{% endblock %}

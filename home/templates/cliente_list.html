@@ -6,7 +6,7 @@
     <main class="container">
         <section class="mt-4">
             <h3>Cliente</h3>
-            <article class="rounded border shadow pt-4 pr-4 pl-4">
+            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-sm">
                 <table class="table table-hover table-sm ">
                     <thead>
                         <tr>
@@ -14,13 +14,16 @@
                                 Nome
                             </th>
                             <th>
-                                email
+                                Email
                             </th>
                             <th>
-                                numero
+                                Numero
                             </th>
                             <th>
-                                contato
+                                Contato
+                            </th>
+                            <th>
+                                Ações
                             </th>
                         </tr>
                     </thead>
@@ -32,9 +35,7 @@
                                 {{ cliente.nome }}
                             </td>
                             <td>
-                                <a href="{% url 'cliente_altera' cliente.id %}">
-                                    {{ cliente.email }}
-                                </a>
+                                {{ cliente.email }}
                             </td>
                             <td>
                                 {{ cliente.numero }}
@@ -42,14 +43,19 @@
                             <td>
                                 {{ cliente.contato }}
                             </td>
+                            <td>
+                                <a href="{% url 'cliente_altera' cliente.id %}">
+                                    <i class="far fa-edit"></i>
+                                </a>
+                            </td>
                         </tr>
                     {% endfor %}
 
                     </tbody>
                 </table>
             </article>
-            <div class="mt-4 offset-10">
-                <a class="btn btn-sm btn-success shadow" href="{% url 'cliente_novo' %}">Novo Cliente</a>
+            <div class="mt-4 offset-md-11 ">
+                <a class="btn btn-sm btn-success shadow" href="{% url 'cliente_novo' %}">Novo</a>
             </div>
         </section>
     </main>

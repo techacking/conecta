@@ -1,10 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load bootstrap %}
 
-</body>
-</html>
+{% block main %}
+
+    <main class="container">
+        <section class="mt-4">
+            <h3>Contatos</h3>
+            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-sm">
+                <table class="table table-hover table-sm ">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                email
+                            </th>
+                            <th>
+                                Site
+                            </th>
+                            <th>
+                                Celular
+                            </th>
+                            <th>
+                                Fixo
+                            </th>
+                            <th>
+                                Ações
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    {% for contato in contato %}
+                        <tr>
+                            <td>
+                                {{ contato.nome }}
+                            </td>
+                            <td>
+                                {{ contato.email }}
+                            </td>
+                            <td>
+                                {{ contato.site }}
+                            </td>
+                            <td>
+                                {{ contato.celular }}
+                            </td>
+                            <td>
+                                {{ contato.telefone1 }}
+                            </td>
+                            <td>
+                                <a>
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <a href="{% url 'contato_altera' contato.id %}">
+                                    <i class="far fa-edit"></i>
+                                </a>
+                                <a href="{% url 'contato_deleta' contato.id %}">
+                                    <i class=" far fa-trash-alt"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+            </article>
+            <div class="mt-4 offset-sm-11">
+                <a class="btn btn-sm btn-success shadow" href="{% url 'contato_novo' %}">Novo</a>
+            </div>
+        </section>
+    </main>
+
+
+
+{% endblock %}
+

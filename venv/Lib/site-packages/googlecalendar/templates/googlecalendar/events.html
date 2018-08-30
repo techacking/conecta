@@ -1,0 +1,6 @@
+<dl>
+    {% for event in events %}
+    <dt><a href="{{ event.gaet_absolute_url }}">{{ event }}</a> {{ event.start_time  }} - {{ event.end_time  }}</dt>
+    <dd>{{ event.summary }}</dd>
+    {% endfor %}
+</dl>

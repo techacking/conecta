@@ -1,0 +1,20 @@
+{% extends "googlecalendar/base.html" %}
+
+{% load feincms_tags %}
+
+
+{% block content-title %}<h2>{{ object.title }}</h2>{% endblock %}
+
+{% block content-body %}
+    <div >
+        
+        <div class="date">{{ object.start_time  }} - {{ object.end_time  }}</div>
+        
+        <div class="body">
+            {% for content in object.content.main %}
+                {% feincms_render_content content request %}
+            {% endfor %} 
+        </div>
+    </div>
+{% endblock %}
+    
