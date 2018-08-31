@@ -21,6 +21,9 @@ class ContatoAdmin(admin.ModelAdmin):
 class ServicoAdmin(admin.ModelAdmin):
     list_display = ('tiposervico',)
 
+class SalaAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'capacidade', 'status', 'tipo')
+
 admin.site.register(TipoSala, TipoSalaAdmin),
 admin.site.register(Sala, SalaAdmin),
 admin.site.register(Condicao, CondicaoAdmin),

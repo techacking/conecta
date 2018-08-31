@@ -5,11 +5,11 @@
 
     <main class="container mt-5">
         <section class="rounded border shadow pt-4 pr-4 pl-4 pb-4 col-md-10 offset-md-1">
-            <h3> Tem certeza que deseja deletar {{ contato.nome }} ?</h3>
+            <h3> Tem certeza que deseja deletar {{ sala.nome }} ?</h3>
             <article class="text-center">
                     <form method="POST" ENCTYPE="multipart/form-data">
                         {% csrf_token %}
-                        <a class="btn btn-secondary mt-5" href="{% url 'contato_list' %}">voltar</a>
+                        <a class="btn btn-secondary mt-5" href="{% url 'sala_list' %}">voltar</a>
                         <button class="btn btn-danger mt-5" type="submit"> Delete </button>
                     </form>
             </article>

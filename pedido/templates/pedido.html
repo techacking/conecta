@@ -31,8 +31,14 @@
                                     {{ pedido.cliente }}
                                 </td>
                                 <td>
+                                    <a>
+                                        <i class="fas fa-search"></i>
+                                    </a>
                                     <a href="{% url 'pedido_altera' pedido.id %}">
-                                        <i class="far fa-edit"></i>
+                                        <i class="far fa-edit fa-lg"></i>
+                                    </a>
+                                    <a href="{% url 'pedido_deleta' pedido.id %}">
+                                        <i class=" far fa-trash-alt fa-lg" style="color: #f06595;"></i>
                                     </a>
                                 </td>
                             </tr>

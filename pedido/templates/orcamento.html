@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load bootstrap %}
+
+{% block main %}
+
+<main class="container">
+        <section class="mt-4">
+            <h3>Orçamentos</h3>
+            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-sm">
+                <table class="table table-hover table-sm ">
+                    <thead>
+                        <tr>
+                            <th>
+                                COD
+                            </th>
+                            <th>
+                                Inicio
+                            </th>
+                            <th>
+                                Terminio
+                            </th>
+                            <th>
+                                Contato
+                            </th>
+                            <th>
+                                Sala
+                            </th>
+                            <th>
+                                Serviços
+                            </th>
+                            <th>
+                                Valor
+                            </th>
+                            <th>
+                                Ação
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for orcamento in orcamento %}
+                            <tr>
+                                <td>
+                                    {{ orcamento.cod }}
+                                </td>
+                                <td>
+                                    {{ orcamento.dataini }}
+                                </td>
+                                <td>
+                                    {{ orcamento.dataterm }}
+                                </td>
+                                <td>
+                                    {{ orcamento.contato }}
+                                </td>
+                                <td>
+                                    {{ orcamento.sala }}
+                                </td>
+                                <td>
+                                    {{ orcamento.servicos }}
+                                </td>
+                                <td>
+                                    {{ orcamento.valor }}
+                                </td>
+                                <td>
+                                    <a>
+                                        <i class="fas fa-search"></i>
+                                    </a>
+                                    <a href="{% url 'orcamento_altera' orcamento.id %}">
+                                        <i class="far fa-edit fa-lg"></i>
+                                    </a>
+                                    <a href="{% url 'orcamento_deleta' orcamento.id %}">
+                                        <i class=" far fa-trash-alt fa-lg" style="color: #f06595;"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </article>
+            <div class="mt-4 offset-md-11 ">
+                <a class="btn btn-sm btn-success shadow" href="{% url 'orcamento_novo' %}">Novo</a>
+            </div>
+        </section>
+    </main>
+
+{% endblock %}
+

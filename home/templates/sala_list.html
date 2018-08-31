@@ -5,25 +5,22 @@
 
     <main class="container">
         <section class="mt-4">
-            <h3>Contatos</h3>
+            <h3>Salas</h3>
             <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-lg">
-                <table class="table table-hover table-lg ">
+                <table class="table table-hover table-fa-lg">
                     <thead>
                         <tr>
                             <th>
                                 Nome
                             </th>
                             <th>
-                                email
+                                Capacidade
                             </th>
                             <th>
-                                Site
+                                Status
                             </th>
                             <th>
-                                Celular
-                            </th>
-                            <th>
-                                Fixo
+                                Tipo
                             </th>
                             <th>
                                 Ações
@@ -32,32 +29,29 @@
                     </thead>
                     <tbody>
 
-                    {% for contato in contato %}
+                    {% for sala in sala %}
                         <tr>
                             <td>
-                                {{ contato.nome }}
+                                {{ sala.nome }}
                             </td>
                             <td>
-                                {{ contato.email }}
+                                {{ sala.capacidade }}
                             </td>
                             <td>
-                                {{ contato.site }}
+                                {{ sala.status }}
                             </td>
                             <td>
-                                {{ contato.celular }}
-                            </td>
-                            <td>
-                                {{ contato.telefone1 }}
+                                {{ sala.tipo }}
                             </td>
                             <td>
                                 <a>
                                     <i class="fas fa-search"></i>
                                 </a>
-                                <a href="{% url 'contato_altera' contato.id %}">
-                                    <i class="far fa-edit"></i>
+                                <a href="{% url 'sala_altera' sala.id %}">
+                                    <i class="far fa-edit fa-lg"></i>
                                 </a>
-                                <a href="{% url 'contato_deleta' contato.id %}">
-                                    <i class=" far fa-trash-alt" style="color: #f06595;"></i>
+                                <a href="{% url 'sala_deleta' sala.id %}">
+                                    <i class=" far fa-trash-alt fa-lg" style="color: #f06595;"></i>
                                 </a>
                             </td>
                         </tr>
@@ -67,7 +61,7 @@
                 </table>
             </article>
             <div class="mt-4 offset-sm-11">
-                <a class="btn btn-sm btn-success shadow" href="{% url 'contato_novo' %}">Novo</a>
+                <a class="btn btn-sm btn-success shadow" href="{% url 'sala_novo' %}">Novo</a>
             </div>
         </section>
     </main>

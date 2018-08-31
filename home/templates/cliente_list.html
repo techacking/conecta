@@ -6,8 +6,8 @@
     <main class="container">
         <section class="mt-4">
             <h3>Cliente</h3>
-            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-sm">
-                <table class="table table-hover table-sm ">
+            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-lg">
+                <table class="table table-hover table-lg">
                     <thead>
                         <tr>
                             <th>
@@ -44,8 +44,14 @@
                                 {{ cliente.contato }}
                             </td>
                             <td>
+                                <a>
+                                    <i class="fas fa-search"></i>
+                                </a>
                                 <a href="{% url 'cliente_altera' cliente.id %}">
                                     <i class="far fa-edit"></i>
+                                </a>
+                                <a href="{% url 'cliente_deleta' cliente.id %}">
+                                    <i class=" far fa-trash-alt" style="color: #f06595;"></i>
                                 </a>
                             </td>
                         </tr>

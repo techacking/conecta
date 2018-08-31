@@ -18,6 +18,13 @@ def contato_list(request):
     contato = Contato.objects.all()
     return render(request, 'contato_list.html', {'contato': contato})
 
+@login_required
+def sala_list(request):
+    sala = Sala.objects.all()
+    return render(request, 'sala_list.html', {'sala': sala})
+
+
+
 # ----------------- Novo ---------------------------------
 
 @login_required
@@ -37,6 +44,17 @@ def contato_novo(request):
         form.save()
         return redirect('contato_list')
     return render(request, 'contato_form.html', {'form': form})
+
+@login_required
+def sala_novo(request):
+    form = SalaForm(request.POST or None)
+
+    if form.is_valid():
+        form.save()
+        return redirect('sala_list')
+    return render(request, 'sala_form.html', {'form': form})
+
+
 
 # ----------------- Altera ---------------------------------
 
@@ -63,8 +81,31 @@ def contato_altera(request, id):
 
     return render(request, 'contato_form.html', {'form': form})
 
+@login_required
+def sala_altera(request, id):
+    sala = get_object_or_404(Sala, pk=id)
+    form = SalaForm(request.POST or None, instance=sala)
+
+    if form.is_valid():
+        form.save()
+        return redirect('sala_list')
+
+    return render(request, 'sala_form.html', {'form': form})
+
 
 # ----------------- Deleta ---------------------------------
+
+@login_required
+def cliente_deleta(request, id):
+    cliente = get_object_or_404(Cliente, pk=id)
+    form = ClienteForm(request.POST or None, instance=cliente)
+
+    if request.method == 'POST':
+        cliente.delete()
+        return redirect('cliente_list')
+
+    return render(request, 'cliente_deleta.html', {'cliente': cliente})
+
 
 @login_required
 def contato_deleta(request, id):
@@ -72,8 +113,18 @@ def contato_deleta(request, id):
     form = ContatoForm(request.POST or None, request.FILES or None, instance=contato)
 
     if request.method == 'POST':
-        form.delete()
+        contato.delete()
         return redirect('contato_list')
 
     return render(request, 'contato_deleta.html', {'contato': contato})
 
+@login_required
+def sala_deleta(request, id):
+    sala = get_object_or_404(Sala, pk=id)
+    form = SalaForm(request.POST or None, instance=sala)
+
+    if request.method == 'POST':
+        sala.delete()
+        return redirect('sala_list')
+
+    return render(request, 'sala_deleta.html', {'sala': sala})

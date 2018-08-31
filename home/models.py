@@ -46,7 +46,7 @@ class Cliente(models.Model):
     numero = models.IntegerField()
     bairro = models.CharField(max_length=20)
     telefone = models.IntegerField()
-    contato = models.ForeignKey(Contato, null=True, blank=True, on_delete=models.PROTECT)
+    contato = models.ForeignKey(Contato, null=True, blank=True, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.nome

@@ -38,7 +38,7 @@
                                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                   <a class="dropdown-item" href="{% url 'cliente_list'%}">Clientes</a>
                                   <a class="dropdown-item" href="{% url 'contato_list'%}">Contatos</a>
-                                  <a class="dropdown-item" href=""></a>
+                                  <a class="dropdown-item" href="{% url 'sala_list' %}">Salas</a>
                                 </div>
                               </li>
                               <li class="nav-item dropdown">
@@ -47,7 +47,7 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                   <a class="dropdown-item" href="{% url 'pedido' %}">Pedidos</a>
-                                  <a class="dropdown-item" href="">Orçamentos</a>
+                                  <a class="dropdown-item" href="{% url 'orcamento' %}">Orçamentos</a>
                                   <a class="dropdown-item" href="#">Pagamentos</a>
                                 </div>
                               </li>

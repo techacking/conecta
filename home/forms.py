@@ -15,3 +15,9 @@ class ContatoForm(ModelForm):
         fields = ['nome', 'email', 'site',
                   'celular', 'telefone1', 'telefone2', 'foto',
                   ]
+
+class SalaForm(ModelForm):
+    class Meta:
+        model = Sala
+        fields = ['nome', 'capacidade', 'status', 'tipo',
+                  ]
