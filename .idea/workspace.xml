@@ -2,48 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e918ab3-e9e5-4178-913d-4177809bd48a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/cliente_deleta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/sala_deleta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/sala_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/sala_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/templates/orcamento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/templates/orcamento_deleta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/templates/orcamento_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pedido/templates/pedido_deleta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/conecta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/conecta.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conecta/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/conecta/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0002_auto_20180817_1117.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0003_auto_20180817_1140.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0004_cliente.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0005_contato.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0006_cliente_contato.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0007_auto_20180828_1317.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0008_servicos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/cliente_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/cliente_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/cliente_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/cliente_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/contato_deleta.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/contato_deleta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/contato_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/contato_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/contato_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/contato_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/migrations/0002_orcamento.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pedido/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/templates/pedido.html" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/templates/pedido.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pedido/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/conecta$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1537380904995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1943505842">
@@ -97,49 +74,84 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="-1279076465">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="397" />
+          <entry key="txt" value="182" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="Python" value="397" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pedido/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="39" />
               <folding>
-                <marker date="1535673388870" expanded="true" signature="318:431" ph="..." />
-                <marker date="1535673388870" expanded="true" signature="758:956" ph="..." />
-                <marker date="1535673388870" expanded="true" signature="1361:1628" ph="..." />
+                <element signature="e#0#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_deleta.html">
+        <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="517">
+              <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conecta/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento.html">
+        <entry file="file://$PROJECT_DIR$/pedido/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+            <state relative-caret-position="170">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding>
-                <element signature="n#style#0;n#i#0;n#a#3;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#article#0;n#section#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1537380847583" expanded="true" signature="280:281" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pedido/templates/pedido_deleta.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="70" lean-forward="true" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -148,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/home/templates/contato_deleta.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="14" lean-forward="true" selection-end-line="19" selection-end-column="14" />
+              <caret line="19" column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -163,29 +175,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/views.py">
+        <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="129" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-                <marker date="1535670630294" expanded="true" signature="482:784" ph="..." />
-                <marker date="1535670630294" expanded="true" signature="629:721" ph="..." />
-                <marker date="1535670630294" expanded="true" signature="1064:1511" ph="..." />
-                <marker date="1535670630294" expanded="true" signature="1322:1511" ph="..." />
-                <marker date="1535670630294" expanded="true" signature="1933:1938" ph="..." />
-                <marker date="1535670630294" expanded="true" signature="2264:2510" ph="..." />
-                <marker date="1535670630294" expanded="true" signature="2620:2906" ph="..." />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="8" column="95" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_form.html">
+        <entry file="file://$PROJECT_DIR$/pedido/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="95" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="95" />
+            <state relative-caret-position="204">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -205,7 +207,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/templates/sala_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="782">
               <caret line="46" selection-start-line="46" selection-end-line="54" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#article#0;n#section#0;n#main#0;n#!!top" expanded="true" />
@@ -225,8 +227,18 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="VictorKiill" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -237,13 +249,10 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/home/templates/home.html" />
         <option value="$PROJECT_DIR$/conecta/urls.py" />
-        <option value="$PROJECT_DIR$/conecta/settings.py" />
         <option value="$PROJECT_DIR$/pedido/admin.py" />
         <option value="$PROJECT_DIR$/pedido/templates/pedido_form.html" />
-        <option value="$PROJECT_DIR$/pedido/models.py" />
         <option value="$PROJECT_DIR$/home/forms.py" />
         <option value="$PROJECT_DIR$/home/admin.py" />
-        <option value="$PROJECT_DIR$/pedido/forms.py" />
         <option value="$PROJECT_DIR$/pedido/templates/orcamento_form.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/home/models.py" />
@@ -264,6 +273,9 @@
         <option value="$PROJECT_DIR$/pedido/templates/pedido_deleta.html" />
         <option value="$PROJECT_DIR$/pedido/templates/orcamento_deleta.html" />
         <option value="$PROJECT_DIR$/pedido/templates/orcamento.html" />
+        <option value="$PROJECT_DIR$/conecta/settings.py" />
+        <option value="$PROJECT_DIR$/pedido/forms.py" />
+        <option value="$PROJECT_DIR$/pedido/models.py" />
       </list>
     </option>
   </component>
@@ -279,6 +291,23 @@
     <option name="width" value="980" />
     <option name="height" value="850" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -287,7 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,13 +326,7 @@
             <path>
               <item name="conecta" type="b2602c69:ProjectViewProjectNode" />
               <item name="conecta" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="conecta" type="b2602c69:ProjectViewProjectNode" />
               <item name="conecta" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="conecta" type="b2602c69:ProjectViewProjectNode" />
@@ -321,14 +343,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="conecta" sdk-home="C:\Users\FamíliaKiillCruz\Desktop\Alchemist\Nova pasta\Virtualenv\Scripts\python.exe">
+        <option name="mySdkHome" value="C:\Users\FamíliaKiillCruz\Desktop\Alchemist\Nova pasta\Virtualenv\Scripts\python.exe" />
+        <option name="myModuleName" value="conecta" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -354,7 +387,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.runserver">
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="conecta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\FamíliaKiillCruz\Desktop\Alchemist\Nova pasta\Virtualenv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="conecta" type="Python.DjangoServer" factoryName="Django server">
       <module name="conecta" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -378,6 +433,10 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.conecta" />
+      <item itemvalue="Python.runserver" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -401,24 +460,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19597316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3219858" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32104123" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -457,12 +515,42 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/smb" />
+    </ignored-roots>
     <MESSAGE value="teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+    <MESSAGE value="Código do Orçamento agora gerado automáticamente, aleatóriamente e sem repetições, número máximo de combinações para o código é de 60.4 milhões" />
+    <option name="LAST_COMMIT_MESSAGE" value="Código do Orçamento agora gerado automáticamente, aleatóriamente e sem repetições, número máximo de combinações para o código é de 60.4 milhões" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,13 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conecta/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pedido/migrations/0006_auto_20180830_1026.py" />
     <entry file="file://$PROJECT_DIR$/pedido/migrations/0002_orcamento.py" />
     <entry file="file://$PROJECT_DIR$/pedido/migrations/0003_auto_20180830_1004.py" />
@@ -565,9 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="57" lean-forward="true" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <marker date="1535637575967" expanded="true" signature="554:559" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,30 +656,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
           <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <marker date="1535639624660" expanded="true" signature="217:222" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,16 +746,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_form.html">
+    <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_deleta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="95" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="95" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pedido/templates/pedido_deleta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/contato_deleta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/templates/sala_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="782">
           <caret line="46" selection-start-line="46" selection-end-line="54" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#i#0;n#a#2;n#td#4;n#tr#0;n#tbody#0;n#table#0;n#article#0;n#section#0;n#main#0;n#!!top" expanded="true" />
@@ -705,60 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/urls.py">
+    <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="129" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-            <marker date="1535670630294" expanded="true" signature="482:784" ph="..." />
-            <marker date="1535670630294" expanded="true" signature="629:721" ph="..." />
-            <marker date="1535670630294" expanded="true" signature="1064:1511" ph="..." />
-            <marker date="1535670630294" expanded="true" signature="1322:1511" ph="..." />
-            <marker date="1535670630294" expanded="true" signature="1933:1938" ph="..." />
-            <marker date="1535670630294" expanded="true" signature="2264:2510" ph="..." />
-            <marker date="1535670630294" expanded="true" signature="2620:2906" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-          <folding>
-            <marker date="1535673388870" expanded="true" signature="318:431" ph="..." />
-            <marker date="1535673388870" expanded="true" signature="758:956" ph="..." />
-            <marker date="1535673388870" expanded="true" signature="1361:1628" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/contato_deleta.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="true" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_deleta.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/templates/pedido_deleta.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="70" lean-forward="true" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        <state relative-caret-position="517">
+          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -772,12 +794,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento.html">
+    <entry file="file://$PROJECT_DIR$/pedido/templates/orcamento_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="71" column="40" lean-forward="true" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#a#3;n#td#7;n#tr#0;n#tbody#0;n#table#0;n#article#0;n#section#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pedido/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pedido/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pedido/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conecta/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pedido/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1537380847583" expanded="true" signature="280:281" ph="..." />
           </folding>
         </state>
       </provider>
