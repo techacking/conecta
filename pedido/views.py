@@ -69,7 +69,7 @@ def pedido_deleta(request, id):
         pedido.delete()
         return redirect('pedido')
 
-    return render(request, 'sala_deleta.html', {'pedido': pedido})
+    return render(request, 'pedido_deleta.html', {'pedido': pedido})
 
 
 @login_required
