@@ -53,7 +53,7 @@ def orcamento_altera(request, id):
 
     if form.is_valid():
         form.save()
-        return redirect('pedido')
+        return redirect('orcamento')
 
     return render(request, 'orcamento_form.html', {'form': form})
 
