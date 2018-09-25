@@ -4,4 +4,4 @@
 .venv
 .DS_Store
 media
-
+migrations

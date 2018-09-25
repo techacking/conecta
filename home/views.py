@@ -10,7 +10,13 @@ def home(request):
 
 @login_required
 def cliente_list(request):
-    cliente = Cliente.objects.all()
+    busca = request.GET.get('pesquisa', None)
+    if busca:
+        cliente = Cliente.objects.all()
+        cliente = cliente.filter(nome__icontains=busca)
+    else:
+        cliente = Cliente.objects.all()
+
     return render(request, 'cliente_list.html', {'cliente': cliente})
 
 @login_required
