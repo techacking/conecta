@@ -2,608 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e918ab3-e9e5-4178-913d-4177809bd48a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/home/templates/empresa_lista.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/countdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/main.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/main.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/style-switcher.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/style-switcher.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/css/theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/countdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/js/style-switcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/animate.css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/animate.css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/daterangepicker-bs2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/examples.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap-daterangepicker/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ac.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ae.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.al.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.am.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ao.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.as.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.at.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.aw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ba.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.by.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.bz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.co.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.cz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.dj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.dk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.dm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.do.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.dz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.eg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.eh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.er.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.fj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.fk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.fm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.gy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.hk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.hn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ht.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.il.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.im.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.in.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.iq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.je.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.jm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.jo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.jp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ke.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ki.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.kz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.la.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.li.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.md.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.mz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.na.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.nc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.nf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ng.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ni.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.np.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.nr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.nu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.nz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.om.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.pw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.py.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.qa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.re.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.rw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.se.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.so.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.st.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.sz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.td.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.tz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.uy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.uz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.va.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.vc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ve.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.vg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.vn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.vu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.wf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ws.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.ye.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.yt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.za.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.zm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/addons/cleave-phone.zw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/cleave-angular.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/cleave-angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/cleave-react.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/cleave-react.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/cleave.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/cleave.js/cleave.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/clipboard/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/clipboard/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/jquery.ui.all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/jquery.ui.base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/jquery.ui.core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/base/jquery.ui.theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-anim_basic_16x16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/css/ui-lightness/jquery-ui-1.8.2.custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_10_custom_validation_initialization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_11_changing_options_after_initialization.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_12_using_remoteAjax_for_all_steps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_13_nested_routes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_14_using_fieldset_as_step_identifier.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_15_add_and_remove_steps_dynamically.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_16_have_the_wizard_ignore_specific_inputs_during_transition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_17_cancel_the_submit_in_using_beforeSubmit_beforeSend_and_beforeSerialize_callbacks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_18_disable_jquery_ui_styles_using_disableUIStyles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_19_summary_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_1_straight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_20_submit_form_without_ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_21_add_steps_using_update_steps_method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_22_before_step_shown_event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_2_branch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_3_bbq_integration_history_handling.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_4_step_shown_event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_5_methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_6_remoteAjax_and_events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_7_transition_animation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_8_multiple_wizards.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/example_9_branching_using_checkbox_radiobutton_hidden_.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/normal_submit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/store_in_database.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/examples/validate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/js/bbq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/js/jquery-ui-1.8.5.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/js/jquery.form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/js/jquery.form.wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/formwizard/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.print.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.print.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/gcal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/gcal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ar-dz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ar-ly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ar-ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ar-sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/de-at.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/en-ie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/en-nz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/es-do.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/fr-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ms-my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/nl-be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/sr-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/fullcalendar/locale/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/gmaps/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/gmaps/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/inputlimiter/jquery.inputlimiter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/inputlimiter/jquery.inputlimiter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery-validation/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery-validation/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery-validation/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/README.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/images/gritter-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/images/gritter-long.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/images/gritter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/images/ie-spacer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/images/trees.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/js/jquery.gritter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery.gritter/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/metismenu/metisMenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/metismenu/metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/metismenu/metisMenu.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/metismenu/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/metismenu/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/moment/locales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/moment/locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/moment/moment-with-locales.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/moment/moment-with-locales.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/moment/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/noty/jquery.noty.packaged.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/noty/jquery.noty.packaged.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/onoffcanvas/onoffcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/onoffcanvas/onoffcanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/onoffcanvas/onoffcanvas.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/onoffcanvas/onoffcanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/css/jquery.pagedown-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/js/Markdown.Converter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/js/Markdown.Editor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/js/Markdown.Sanitizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/js/jquery.pagedown-bootstrap.combined.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/js/jquery.pagedown-bootstrap.combined.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/js/jquery.pagedown-bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/pagedown-bootstrap/less/jquery.pagedown-bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/custom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/dump.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/jquery/all_runtimes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/jquery/jquery_ui_widget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/jquery/queue_widget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/jquery/s3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/examples/upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/Moxie.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/Moxie.xap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/mn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/pt_BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/sr_RS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/th_TH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/uk_UA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/zh_CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/i18n/zh_TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/css/jquery.plupload.queue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/backgrounds.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/buttons-disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/buttons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/delete.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/done.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/error.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/img/transp50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/jquery.plupload.queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.plupload.queue/jquery.plupload.queue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.ui.plupload/css/jquery.ui.plupload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.ui.plupload/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.ui.plupload/img/plupload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.ui.plupload/jquery.ui.plupload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/jquery.ui.plupload/jquery.ui.plupload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/moxie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/moxie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/plupload.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/plupload.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/js/plupload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/license.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/plupload/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/screenfull/screenfull.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/timepicker/css/bootstrap-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/timepicker/css/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/timepicker/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/timepicker/js/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/timepicker/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/js/jquery.validVal-customValidations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/js/jquery.validVal-debugger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/js/jquery.validVal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/js/jquery.validVal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/serverside-validations/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/serverside-validations/validations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/statics/lib/validVal/validVal.jquery.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/agenda/templates/agenda.html" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/templates/agenda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/migrations/0002_auto_20180830_1844.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/cliente_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/cliente_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/cliente_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/cliente_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedido/migrations/0002_auto_20180918_1857.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -618,10 +17,10 @@
     <session id="-1943505842">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="45" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="11" />
-          <entry key="project.open.time.11" value="8" />
+          <entry key="project.open.time.11" value="9" />
           <entry key="project.open.time.12" value="19" />
           <entry key="project.open.time.13" value="5" />
           <entry key="project.open.time.14" value="5" />
@@ -635,7 +34,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="64" />
+          <entry key="project.opened" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -696,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+            <state relative-caret-position="2261">
+              <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
                 <marker date="1538093888965" expanded="true" signature="373:375" ph="..." />
@@ -716,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="48" column="89" lean-forward="true" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+            <state relative-caret-position="357">
+              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
               <folding>
                 <marker date="1538010176383" expanded="true" signature="1741:1746" ph="..." />
               </folding>
@@ -729,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/home/templates/contato_deleta.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="84" lean-forward="true" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+              <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -824,8 +223,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="565" />
+    <option name="y" value="-19" />
     <option name="width" value="1170" />
     <option name="height" value="1040" />
   </component>
@@ -837,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -858,7 +258,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -946,8 +345,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.152349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15436241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1092,9 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1188,9 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/contato/contato_list.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/contato/contato_list.html" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1234,13 +629,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statics/lib/fullcalendar/fullcalendar.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1270,9 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,9 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1293,17 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/templates/contato_deleta.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="84" lean-forward="true" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+        <state relative-caret-position="2261">
+          <caret line="138" column="9" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
             <marker date="1538093888965" expanded="true" signature="373:375" ph="..." />
@@ -1318,10 +694,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home/templates/contato_deleta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="48" column="89" lean-forward="true" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+        <state relative-caret-position="357">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
           <folding>
             <marker date="1538010176383" expanded="true" signature="1741:1746" ph="..." />
           </folding>
