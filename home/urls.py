@@ -26,4 +26,6 @@ urlpatterns = [
     path('sala_novo/', sala_novo, name='sala_novo'),
     path('sala_altera/<int:id>/', sala_altera, name='sala_altera'),
     path('sala_deleta/<int:id>/', sala_deleta, name='sala_deleta'),
+
+
 ]

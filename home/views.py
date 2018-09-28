@@ -3,10 +3,19 @@ from django.contrib.auth.decorators import login_required
 from .models import *
 from .forms import *
 from django.views.generic.list import ListView
+from .models import Cliente
 
 @login_required
 def home(request):
     return render(request, 'home.html')
+
+
+# CBV ------------ ListView ------------------------
+
+
+
+# CBV -------------------------------------
+
 
 @login_required
 def cliente_list(request):
