@@ -6,8 +6,8 @@
 <main class="">
     <section class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="box p-md-5">
+            <div class="col-md-6 rounded border shadow pt-4 pr-4 pl-4 table-responsive-lg" style="margin-top: 40px">
+                <div class="d-block p-md-5 block">
                     <header>
                         <h5> Agenda </h5>
                     </header>
@@ -17,12 +17,59 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+                <div class="col-md-6 rounded border shadow pt-4 pr-4 pl-4 table-responsive-lg" style="margin-top: 40px">
+                    <canvas class="doughnut-chart" width="700" height="570"></canvas>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+                    <script>
+                        var ctx = document.getElementsByClassName("doughnut-chart");
 
-            </div>
-            <div class="col-12">
+                        var chartGraph = new Chart(ctx, {
+                            type: 'doughnut',
+                            data: {
+                              labels: ["Orçamentos","Pedidos","Contratos"],
+                              datasets: [{
+                                label: "Population (millions)",
+                                backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"],
+                                data: [2478,5267,734]
+                              }]
+                            },
+                            options: {
+                              title: {
+                                display: true,
+                                text: 'Número de Solicitações'
+                              }
+                            }
+                        });
+                    </script>
+                </div>
+                <div class="col-md-12 rounded border shadow pt-4 pr-5 pl-4 table-responsive-lg" style="margin-top: 40px">
+                    <canvas id="bar-chart" width="800" height="350"></canvas>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+                    <script>
+                        var ctx = document.getElementsByClassName("bar-chart");
 
-            </div>
+                        var chartGraph = new Chart(document.getElementById("bar-chart"), {
+                            type: 'bar',
+                            data: {
+                              labels: ["jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"],
+                              datasets: [
+                                {
+                                  label: "Faturamento",
+                                  borderColor: 'rgba(77,166,253,0.85)',
+                                  data: [5000,5267,7000,3000,2000,1500,5000,7000,8000,10000,8500,9000]
+                                }
+                              ]
+                            },
+                            options: {
+                              legend: { display: false },
+                              title: {
+                                display: true,
+                                text: 'Faturamento 2018'
+                              }
+                            }
+                        });
+                    </script>
+                </div>
         </div>
     </section>
 </main>
