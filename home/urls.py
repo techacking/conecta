@@ -17,9 +17,11 @@ urlpatterns = [
     path('cliente_altera/<int:id>/', cliente_altera, name='cliente_altera'),
     path('cliente_deleta/<int:id>/', cliente_deleta, name='cliente_deleta'),
 
-    path('cliente/', Lista.as_view(), name='cliente_list'),
+    path('cliente_list/', clienteList.as_view(), name='cliente_list'),
+    path('contato_list/', contatoList.as_view(), name='contato_list'),
+    path('sala_list/', salaList.as_view(), name='sala_list'),
 
-    path('contato/', contato_list, name='contato_list'),
+
     path('contato_novo/', contato_novo, name='contato_novo'),
     path('contato_altera/<int:id>/', contato_altera, name='contato_altera'),
     path('contato_deleta/<int:id>/', contato_deleta, name='contato_deleta'),

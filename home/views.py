@@ -3,6 +3,8 @@ from django.contrib.auth.decorators import login_required
 from .forms import *
 from django.views.generic.list import ListView
 from .models import Cliente
+from .models import Contato
+from .models import Sala
 
 
 @login_required
@@ -12,18 +14,19 @@ def home(request):
 
 # CBV ------------ ListView ---------------
 
-class Lista(ListView):
+class clienteList(ListView):
     model = Cliente
     template_name = 'clientes/cliente_list.html'
 
+class contatoList(ListView):
+    model = Contato
+    template_name = 'clientes/contato_list.html'
+
+class salaList(ListView):
+    model = Sala
+    template_name = 'clientes/sala_list.html'
+
 # CBV -------------------------------------
-
-
-
-@login_required
-def contato_list(request):
-    contato = Contato.objects.all()
-    return render(request, 'contato_list.html', {'contato': contato})
 
 @login_required
 def sala_list(request):
