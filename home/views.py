@@ -1,32 +1,24 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
-from .models import *
 from .forms import *
 from django.views.generic.list import ListView
 from .models import Cliente
+
 
 @login_required
 def home(request):
     return render(request, 'home.html')
 
 
-# CBV ------------ ListView ------------------------
+# CBV ------------ ListView ---------------
 
-
+class Lista(ListView):
+    model = Cliente
+    template_name = 'clientes/cliente_list.html'
 
 # CBV -------------------------------------
 
 
-@login_required
-def cliente_list(request):
-    busca = request.GET.get('pesquisa', None)
-    if busca:
-        cliente = Cliente.objects.all()
-        cliente = cliente.filter(nome__icontains=busca)
-    else:
-        cliente = Cliente.objects.all()
-
-    return render(request, 'cliente_list.html', {'cliente': cliente})
 
 @login_required
 def contato_list(request):

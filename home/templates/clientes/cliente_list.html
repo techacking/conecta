@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% load bootstrap %}
+
+{% block main %}
+
+    <main class="container">
+
+        <section class="mt-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>Cliente</h3>
+                </div>
+                <div class="col-md-4">
+                    <form class="form-inline">
+                      <div class="form-group mx-sm-3 mb-2">
+
+                        <input type="text" class="form-control" name="pesquisa" id="inputPassword2" placeholder="Cliente">
+                      </div>
+                      <button type="submit" class="btn btn-primary mb-2">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+            <article class="rounded border shadow pt-4 pr-4 pl-4 table-responsive-lg">
+                <table class="table table-hover table-lg">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                            </th>
+                            <th>
+                                Email
+                            </th>
+                            <th>
+                                Numero
+                            </th>
+                            <th>
+                                Contato
+                            </th>
+                            <th>
+                                Ações
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    {% for cliente in object_list %}
+                        <tr>
+                            <td>
+                                {{ cliente.nome }}
+                            </td>
+                            <td>
+                                {{ cliente.email }}
+                            </td>
+                            <td>
+                                {{ cliente.numero }}
+                            </td>
+                            <td>
+                                {{ cliente.contato }}
+                            </td>
+                            <td>
+                                <a>
+                                    <i class="fas fa-search"></i>
+                                </a>
+                                <a href="{% url 'cliente_altera' cliente.id %}">
+                                    <i class="far fa-edit"></i>
+                                </a>
+                                <a href="{% url 'cliente_deleta' cliente.id %}">
+                                    <i class=" far fa-trash-alt" style="color: #f06595;"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+
+                    </tbody>
+                </table>
+            </article>
+            <div class="mt-4 offset-md-11 ">
+                <a class="btn btn-sm btn-success shadow" href="{% url 'cliente_novo' %}">Novo</a>
+            </div>
+        </section>
+    </main>
+
+
+
+{% endblock %}

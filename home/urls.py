@@ -10,12 +10,14 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
 
-    path('home/', home, name='home'),
+    path('', home, name='home'),
 
-    path('cliente/', cliente_list, name='cliente_list'),
+
     path('cliente_novo/', cliente_novo, name='cliente_novo'),
     path('cliente_altera/<int:id>/', cliente_altera, name='cliente_altera'),
     path('cliente_deleta/<int:id>/', cliente_deleta, name='cliente_deleta'),
+
+    path('cliente/', Lista.as_view(), name='cliente_list'),
 
     path('contato/', contato_list, name='contato_list'),
     path('contato_novo/', contato_novo, name='contato_novo'),
