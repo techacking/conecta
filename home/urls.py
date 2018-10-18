@@ -17,6 +17,8 @@ urlpatterns = [
     path('cliente_altera/<int:id>/', cliente_altera, name='cliente_altera'),
     path('cliente_deleta/<int:id>/', cliente_deleta, name='cliente_deleta'),
 
+    #CBV ---------------------ListView-----------------------------------
+
     path('cliente_list/', clienteList.as_view(), name='cliente_list'),
     path('contato_list/', contatoList.as_view(), name='contato_list'),
     path('sala_list/', salaList.as_view(), name='sala_list'),
@@ -26,7 +28,6 @@ urlpatterns = [
     path('contato_altera/<int:id>/', contato_altera, name='contato_altera'),
     path('contato_deleta/<int:id>/', contato_deleta, name='contato_deleta'),
 
-    path('sala/', sala_list, name='sala_list'),
     path('sala_novo/', sala_novo, name='sala_novo'),
     path('sala_altera/<int:id>/', sala_altera, name='sala_altera'),
     path('sala_deleta/<int:id>/', sala_deleta, name='sala_deleta'),

@@ -28,11 +28,6 @@ class salaList(ListView):
 
 # CBV -------------------------------------
 
-@login_required
-def sala_list(request):
-    sala = Sala.objects.all()
-    return render(request, 'sala_list.html', {'sala': sala})
-
 
 
 # ----------------- Novo ---------------------------------
