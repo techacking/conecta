@@ -35,8 +35,6 @@ class Cliente(models.Model):
     inscricaoestadual = models.CharField(max_length=30)
     email = models.EmailField(max_length=254, blank=False)
 
-    usuario = models.ForeignKey(Usuario, blank=False, null=False, on_delete=models.CASCADE)
-
     def __str__(self):
         return self.nome
 
