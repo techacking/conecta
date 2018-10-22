@@ -7,7 +7,7 @@ class PedidoAdmin(admin.ModelAdmin):
     list_display = ('status', 'cliente',)
 
 class OrcamentoAdmin(admin.ModelAdmin):
-    list_display = ('dataini', 'dataterm', 'sala', 'servicos',)
+    list_display = ('valor','pedido')
 
 admin.site.register(Pedido, PedidoAdmin),
 admin.site.register(Orcamento, OrcamentoAdmin),

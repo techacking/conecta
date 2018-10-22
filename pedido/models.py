@@ -1,18 +1,39 @@
 from django.db import models
 from home.models import *
 
+
 class Pedido(models.Model):
-    status = models.CharField(max_length=15)
-    cliente = models.ForeignKey(Cliente, null=True, blank=True, on_delete=models.PROTECT)
+    status = models.SmallIntegerField()
+    datapedido = models.DateTimeField()
+    dataagenda = models.DateTimeField()
+
+    cliente = models.ForeignKey(Cliente, null=True, blank=False, on_delete=models.CASCADE)
+    sala = models.ForeignKey(Sala, null=True, blank=False, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.status
+
+
+class Pagamento(models.Model):
+    datapagamento = models.DateTimeField()
+    valor = models.FloatField()
+    formaPagamento = models.CharField(max_length=100)
+    status = models.CharField(max_length=100)
+
+    cliente = models.ForeignKey(Cliente, blank=False, null=False, on_delete=models.CASCADE)
+    pedido = models.ForeignKey(Pedido, blank=False, null=False, on_delete=models.CASCADE)
+    boleto = models.ForeignKey(Boleto, blank=True, null=True, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.status
+
 
 class Orcamento(models.Model):
-    cod = models.CharField(max_length=8, null=True)
-    dataini = models.DateTimeField()
-    dataterm = models.DateTimeField()
-    contato = models.ForeignKey(Contato, null=True, blank=True, on_delete=models.PROTECT)
-    sala = models.ForeignKey(Sala, null=True, blank=True, on_delete=models.PROTECT)
-    servicos = models.ForeignKey(Servicos, null=True, blank=True, on_delete=models.PROTECT)
-    valor = models.DecimalField(max_digits=5, decimal_places=2, null=True)
+    valor = models.FloatField()
+    datageracao = models.DateTimeField()
+
+    pedido = models.ForeignKey(Pedido, blank=False, null=False, on_delete=models.CASCADE)
+
 
 
 
