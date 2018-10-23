@@ -14,6 +14,9 @@
         <link rel="stylesheet" href="{% static 'css/agenda-default.css' %}">
         <link rel="stylesheet" href="{% static 'css/fullcalendar.min.css' %}">
         <link rel="stylesheet" href="{% static 'css/fullcalendar.print.min.css' %}"  media='print' />
+		{% block head %}
+		
+		{% endblock %}
 
     </head>
     <body>
@@ -35,7 +38,7 @@
                               <li class="nav-item">
                                 <a class="nav-link" href="{% url 'agenda' %}">Agenda</a>
                               </li>
-                              <li class="nav-item">
+                              <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                   Cadastros
                                 </a>
