@@ -1,4 +1,4 @@
-﻿var Cal = function(divId) {
+var Cal = function(divId) {
 
   //Store div id
   this.divId = divId;
@@ -116,7 +116,7 @@ Cal.prototype.showMonth = function(y, m) {
             var anoF = datahoraI[0];
             var mesF = datahoraI[1];
             var diaF = datahoraI[2].substring(0, 2);
-            if (anoI <= y.toString() && y.toString() <= anoF && mesI <= (parseInt(m, 10) + 1).toString() && (parseInt(m, 10) + 1).toString() <= mesF && diaI <= d.toString() && d.toString() <= diaF) {
+            if (anoI == y.toString() && mesI == (parseInt(m, 10) + 1).toString() && diaI == d.toString()) {
 				if (events.length < 3){
 					events.push('<tr><td><button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#testModalEvent">'+listEvents[passo]['title']+'</button></td></tr>');
 				} else if (events.length == 3) {

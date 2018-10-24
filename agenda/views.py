@@ -5,13 +5,14 @@ import json
 
 @login_required
 def agenda(request):
-    eventos = Orcamento.objects.all()
-	eventosList = []
-	for evento in eventos:
-		eventoDict = {
-			"title": str(evento.contato),
-			"startdate": str(evento.dataini),
-			"enddate": str(evento.dataterm),
-		}
-		eventosList.append(eventoDict)
-    return render(request, 'agenda.html', {'eventosList': json.dumps(eventosList)})
+    eventos = Entre.objects.all()
+    eventos_list = []
+    for evento in eventos:
+        evento_dict = {
+            "title": str(evento.name),
+            "startdate": str(evento.date),
+            "enddate": str(evento.date),
+            "id": str(evento.id),
+        }
+        eventos_list.append(evento_dict)
+    return render(request, 'agenda.html', {'eventosList': json.dumps(eventos_list)})
