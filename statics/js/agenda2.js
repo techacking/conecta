@@ -104,7 +104,7 @@ Cal.prototype.showMonth = function(y, m) {
     }
 
 	//Escreve os eventos
-	function mostrarEventos(y, m, d, listEvents) {
+	function mostrarEventos(d, listEvents) {
           var passo;
           var events = []
           for (passo = 0; passo < listEvents.length; passo++) {
@@ -116,11 +116,11 @@ Cal.prototype.showMonth = function(y, m) {
             var anoF = datahoraI[0];
             var mesF = datahoraI[1];
             var diaF = datahoraI[2].substring(0, 2);
-            if (anoI == y.toString() && mesI == (parseInt(m, 10) + 1).toString() && diaI == d.toString()) {
+            if (anoI == this.currYear.toString() && mesI == (parseInt(this.currMonth, 10) + 1).toString() && diaI == d.toString()) {
 				if (events.length < 3){
-					events.push('<tr><td><button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#testModalEvent">'+listEvents[passo]['title']+'</button></td></tr>');
+					events.push('<tr><td><button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#testModalEvent"  data-whatever="' + listEvents[passo]['id'] + '">'+listEvents[passo]['title']+'</button></td></tr>');
 				} else if (events.length == 3) {
-					events[events.length - 1] = '<tr><td><button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#testModalEvent">+'+(events.length - 2).toString()+' Eventos</button></td></tr>';
+					events[events.length - 1] = '<tr><td><button type="button" class="btn btn-info btn-block" data-toggle="modal" data-target="#testModalEvent" data-whatever=' + listEvents[passo]['id'] + '>+'+(events.length - 2).toString()+' Eventos</button></td></tr>';
 				}
             }
           }
@@ -135,9 +135,9 @@ Cal.prototype.showMonth = function(y, m) {
     var chkY = chk.getFullYear();
     var chkM = chk.getMonth();
     if (chkY == this.currYear && chkM == this.currMonth && i == this.currDay) {
-      html += '<td class="rounded bg-success text-white"><table><tr><td class="daysNumber">' + i + '</td></tr>' + mostrarEventos(this.currYear,this.currMonth,i,eventos) + '</a></td>';
+      html += '<td class="rounded bg-success text-white"><table><tr><td class="daysNumber">' + i + '</td></tr>' + mostrarEventos(i,eventos) + '</a></td>';
     } else {
-      html += '<td><a role="button" class="btn btn-primary btn-block" data-toggle="modal" href="#exampleModalCenter"><table><tr><td class="daysNumber">' + i + '</td></tr>' + mostrarEventos(this.currYear,this.currMonth,i,eventos) + '</a></td>';
+      html += '<td><a role="button" class="btn btn-primary btn-block" data-toggle="modal" href="#exampleModalCenter"><table><tr><td class="daysNumber">' + i + '</td></tr>' + mostrarEventos(i,eventos) + '</a></td>';
     }
     // If Saturday, closes the row
     if ( dow == 6 ) {

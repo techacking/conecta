@@ -21,12 +21,10 @@
                     <h5></h5>
                 </header>
                 <div id="calendar_content" class="body">
-                    <div class="calendar-wrapper rounded" >
-                        <div id="divCal" class="rounded"></div>
-                        <div class="row p-2">
-                            <button id="btnPrevv" class="shadow-lg offset-1 col-3 btn btn-light" type="button">Prev</button>
-                            <button id="btnNextt" class="shadow-lg offset-4 col-3 btn btn-success" type="button">Próx</button>
-                        </div>
+                    <div id="divCal" class="rounded"></div>
+                    <div class="row p-2">
+                        <button id="btnPrevv" class="shadow-lg offset-1 col-3 btn btn-light" type="button">Prev</button>
+                        <button id="btnNextt" class="shadow-lg offset-4 col-3 btn btn-success" type="button">Próx</button>
                     </div>
                 </div>
             </div>
@@ -55,13 +53,13 @@
       </div>
     </div>
 	
-	<!-- Other Modal -->
+	<!-- Event Modal -->
 	
 	<div class="modal fade" id="testModalEvent" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalCenterTitle">Modal Title</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -76,4 +74,15 @@
         </div>
       </div>
     </div>
+    <!--Código abaixo deu fail Fail-->
+    <script>
+        $('#testModalEvent').on('show.bs.modal', function (event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var recipient = button.data('whatever') // Extract info from data-* attributes
+            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+             var modal = $(this)
+            modal.find('.modal-title').text('New message to' + recipient)
+        })
+    </script>
 {% endblock %}
